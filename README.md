@@ -17,15 +17,18 @@ This project turns your ESP32 into a web server that:
 - WiFi network access  
 
 ## 📁 Project Structure
+```text
 ESP32-HTTP-Server/
 │
 ├── src/
-│ └── ESP32_HTTP_Server.ino # Main Arduino sketch
+│   └── ESP32_HTTP_Server.ino   # Main Arduino sketch
 │
 ├── docs/
-│ └── wiring.md # Connection guide
-│ 
-└── README.md # This file
+│   └── wiring.md               # Connection guide
+│
+├── README.md                   # This file
+└── LICENSE                     # MIT License
+```
 
 ## 🚀 Installation & Setup
 1. Install Arduino IDE with ESP32 support:
@@ -59,12 +62,14 @@ The full Arduino sketch is inside [`src/ESP32_HTTP_Server.ino`](src/ESP32_HTTP_S
 See [docs/wiring.md](docs/wiring.md) for details.  
 
 ## 📸 Example Output
+```text
 Connecting to WiFi...
 Connected! IP address: 192.168.1.100
 HTTP server started
 LED turned ON
 LED turned OFF
 HTTP server stopped
+```
 
 ## 🌟 Advanced Features
 - OTA updates with `ArduinoOTA`  
