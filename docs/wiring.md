@@ -1,0 +1,24 @@
+# Wiring Guide for ESP32 HTTP Server
+
+
+## Built-in LED
+Most ESP32-S3 boards already include an onboard LED. This project uses `LED_BUILTIN` by default.
+
+
+### Common LED pins:
+- GPIO 13 (some ESP32-S3 Dev boards)
+- GPIO 21 (alternative)
+- GPIO 38 (alternative)
+
+
+If the onboard LED does not work, uncomment one of the alternative pin definitions in the code and connect an external LED:
+- Connect LED anode (+) to the chosen GPIO pin
+- Connect LED cathode (-) through a 220Ω resistor to GND
+
+
+## Power
+- Connect the ESP32 board via USB cable to your computer for programming and power.
+
+
+## WiFi
+- No extra wiring needed. Just configure your SSID and password in the code.
