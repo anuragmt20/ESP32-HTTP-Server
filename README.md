@@ -26,8 +26,7 @@ ESP32-HTTP-Server/
 ├── docs/
 │   └── wiring.md               # Connection guide
 │
-├── README.md                   # This file
-└── LICENSE                     # MIT License
+└── README.md                   # This file
 ```
 
 ## 🚀 Installation & Setup
