@@ -1,6 +1,6 @@
 # Smart Home Automation
 
-A complete ESP32-based web server project that allows you to control the built-in LED and monitor device status through a web interface.
+A complete ESP32-based web server project that allows you to control the home appliances and monitor device status through a web interface.
 
 ## 📋 Project Overview
 This project turns your ESP32 into a web server that:
