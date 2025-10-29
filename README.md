@@ -1,4 +1,4 @@
-# ESP32 HTTP Server Project
+# Smart Home Automation
 
 A complete ESP32-based web server project that allows you to control the built-in LED and monitor device status through a web interface.
 
